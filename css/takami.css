@@ -55,11 +55,13 @@ div.sidebar a {
 }
 
 .explain {
+    padding-left: 22.5%;
     width: 40%;
     height: 40%;
 }
 
 .image {
+    padding-left: 22.5%;
     width: 40%;
     height: 40%;
 }
