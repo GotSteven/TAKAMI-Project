@@ -23,7 +23,7 @@ body {
     bottom: 0;
 }
 
-div.sidebar .logo {
+.sidebar .logo {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 20px;
@@ -41,13 +41,13 @@ div.sidebar .logo {
     display: flex;
 }
 
-div.sidebar p {
+.sidebar p {
     text-align: right;
     opacity: 1;
     margin: 30px;
 }
 
-div.sidebar a {
+.sidebar a {
     color: white;
 }
 
@@ -65,19 +65,24 @@ div.sidebar a {
 .explain {
     padding: 20px;
     margin-left: 20.5%;
-    width: 40%;
+    width: 80%;
     height: 40%;
-    background-color: white;
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.explain > h1 {
+.explain h1 {
+    width: 100%;
     text-align: center;
 }
 
-.image {
-    width: 40%;
-    height: 40%;
+.explain .text{
+    width: 50%;
+}
+
+.explain .image {
+    width: 50%;
 }
 
 .home{
@@ -85,3 +90,4 @@ div.sidebar a {
     height: 800px;
     opacity: 0;
 }
+
