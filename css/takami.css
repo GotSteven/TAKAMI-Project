@@ -63,11 +63,16 @@ div.sidebar a {
 }
 
 .explain {
+    padding: 20px;
     margin-left: 20.5%;
     width: 40%;
     height: 40%;
     background-color: white;
     opacity: 0.8;
+}
+
+.explain > h1 {
+    text-align: center;
 }
 
 .image {
