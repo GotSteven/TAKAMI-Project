@@ -88,6 +88,11 @@ body {
     text-align: center;
 }
 
+.explain > p {
+    width: 100%;
+    text-align: center;
+}
+
 .explain .text {
     margin-top: 0;
     margin-right: 1%;
