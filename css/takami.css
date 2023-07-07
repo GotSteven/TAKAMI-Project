@@ -124,3 +124,7 @@ body {
 .role {
   font-size: 150%;
 }
+
+.leftside {
+  text-align: left;
+}
